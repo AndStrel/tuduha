@@ -1,0 +1,42 @@
+// components/Filter/Filter.module.scss
+.filter {
+	display: flex;
+	gap: 10px;
+	margin: 15px 0;
+  
+	button {
+	  padding: 8px 16px;
+	  border: none;
+	  background-color: #f2f2f2;
+	  cursor: pointer;
+	  border-radius: 5px;
+	  font-size: 0.9rem;
+	  transition: background-color 0.2s;
+  
+	  &.active {
+		background-color: #0073e6;
+		color: #ffffff;
+	  }
+  
+	  &:hover:not(.active) {
+		background-color: #e0e0e0;
+	  }
+	}
+  
+	.clearButton {
+	  margin-left: auto;
+	  padding: 8px 16px;
+	  background-color: #e74c3c;
+	  color: #ffffff;
+	  border: none;
+	  cursor: pointer;
+	  border-radius: 5px;
+	  font-size: 0.9rem;
+	  transition: background-color 0.2s;
+  
+	  &:hover {
+		background-color: #c0392b;
+	  }
+	}
+  }
+  
