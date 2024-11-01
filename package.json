@@ -2,7 +2,7 @@
 	"name": "webpack-react",
 	"version": "1.1.0",
 	"main": "index.js",
-	"homepage": "https://andstrel.github.io/ToDo/",
+	"homepage": "https://andstrel.github.io/tuduha/",
 	"scripts": {
 		"build": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.js --env env=prod",
 		"start": "webpack serve --config webpack/webpack.config.js --env env=dev",
